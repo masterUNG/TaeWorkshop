@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "877358126542",
+    "project_id": "servicecar-ef3d3",
+    "storage_bucket": "servicecar-ef3d3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877358126542:android:c4b5bef30c27475f9e879f",
+        "android_client_info": {
+          "package_name": "com.masterung.taewhorkshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877358126542-972k6rl8ap0e4075af1sdv46j2u2qbie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk18kSDU368P5Ym41YKmJ3X90PKk-6dto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877358126542-972k6rl8ap0e4075af1sdv46j2u2qbie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:877358126542:android:4fe693aa4df16d359e879f",
+        "android_client_info": {
+          "package_name": "com.phurithat.carservice"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "877358126542-972k6rl8ap0e4075af1sdv46j2u2qbie.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDk18kSDU368P5Ym41YKmJ3X90PKk-6dto"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "877358126542-972k6rl8ap0e4075af1sdv46j2u2qbie.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
