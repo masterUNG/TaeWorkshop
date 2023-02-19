@@ -30,24 +30,13 @@ class AppService {
 
         MarkerId markerId = MarkerId(i.toString());
         appController.mapMarker[markerId] = Marker(
-          markerId: markerId,
-          position: LatLng(modle.geoPoint.latitude, modle.geoPoint.longitude),
-          icon: BitmapDescriptor.defaultMarkerWithHue(240),
-          infoWindow: InfoWindow(title: appController.shopUserModels.last.name)
-        );
+            markerId: markerId,
+            position: LatLng(modle.geoPoint.latitude, modle.geoPoint.longitude),
+            icon: BitmapDescriptor.defaultMarkerWithHue(240),
+            infoWindow:
+                InfoWindow(title: appController.shopUserModels.last.name));
         i++;
       }
-
-      
-
-      MarkerId markerId = const MarkerId('idUser');
-      // appController.mapMarker[markerId] = Marker(
-      //   markerId: markerId,
-      //   position: LatLng(appController.positions.last.latitude,
-      //       appController.positions.last.longitude),
-      // );
-
-      print('## position at service ---> ${appController.userModels.length}');
     });
   }
 
